@@ -1,0 +1,19 @@
+{
+  "name": "ai-engineering-course",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^26.4.0"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "openai": "^7.7.0"
+  }
+}
