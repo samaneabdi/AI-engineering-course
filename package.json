@@ -3,7 +3,10 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --env-file=.env src/agent.ts",
+    "eval": "node --env-file=.env src/eval/run.ts",
+    "eval:single": "node --env-file=.env src/eval/eval_single.ts",
+    "eval:multi": "node --env-file=.env src/eval/eval_multi.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",
